@@ -4,7 +4,7 @@ const Card = ({name, email, id}) => {
  
   
   return (
-     //tachyon classes//
+  
     <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'> 
       <div>
         <img alt='robots' src={`https://robohash.org/${id}?200X200`}/>
